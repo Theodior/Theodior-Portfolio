@@ -189,7 +189,7 @@ nav {
     }
 
     .arrow {
-        top: 45vh;
+        top: 55vh;
     }
 
     img {
@@ -346,9 +346,9 @@ nav {
 
 
 /*desktop big*/
-@media (min-width: 1200px) {
+@media (min-width: 1281px) {
     .arrow {
-        top: 105vh;
+        top: 90vh;
     }
 
     img {
