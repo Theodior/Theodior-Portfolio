@@ -165,6 +165,10 @@ nav {
         background-position: center;
     }
 
+    img {
+        margin-top: 5vh;
+    }
+
 }
 
 
@@ -186,6 +190,11 @@ nav {
 
     .arrow {
         top: 45vh;
+    }
+
+    img {
+        margin-top: 5vh;
+        ;
     }
 
     main {
@@ -253,7 +262,7 @@ nav {
     }
 
     .up1 {
-        top: -29vh;
+        top: -26vh;
         left: 20vw;
     }
 
@@ -272,7 +281,28 @@ nav {
         left: 1vw;
     }
 
+    .down1 {
+        top: -26vh;
+        left: 20vw;
 
+    }
+
+    .down2 {
+        top: -68vh;
+        left: -6vw;
+
+    }
+
+    .down3 {
+        top: -100vh;
+        left: 26vw;
+
+    }
+
+    .down4 {
+        top: -98vh;
+        left: 25vw;
+    }
 
     .cover-txt {
         left: -8vw;
@@ -283,11 +313,15 @@ nav {
     }
 
     #prev-work {
-        height: 190vh
+        height: 190vh;
     }
 
     #toolbox {
         height: inherit;
+        margin-top: inherit;
+    }
+
+    img {
         margin-top: inherit;
     }
 
@@ -308,6 +342,49 @@ nav {
 
 
     /*preloader-end*/
+}
+
+
+/*desktop big*/
+@media (min-width: 1200px) {
+    .arrow {
+        top: 105vh;
+    }
+
+    img {
+        margin-top: inherit;
+    }
+
+    main {
+        margin-left: 160px;
+        margin-right: 150px;
+    }
+
+    .prev-txt {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #first {
+        height: 210vh;
+    }
+
+    #prev-work {
+        height: 210vh;
+    }
+
+
+    #blanko {
+        display: none;
+    }
+
+    .side1 {
+        right: 5vw;
+    }
+
+    .side2 {
+        left: 5vw;
+    }
 }
 
 .parallax {
